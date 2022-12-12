@@ -7,7 +7,6 @@ declare module 'react-native-circular-progress' {
     StyleProp,
     ViewStyle
   } from 'react-native';
-  // import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
   export interface AnimatedCircularProgressProps {
     /**
