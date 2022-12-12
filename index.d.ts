@@ -7,7 +7,7 @@ declare module 'react-native-circular-progress' {
     StyleProp,
     ViewStyle
   } from 'react-native';
-  import { ViewPropTypes } from 'deprecated-react-native-prop-types';
+  // import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
   export interface AnimatedCircularProgressProps {
     /**
@@ -102,12 +102,12 @@ declare module 'react-native-circular-progress' {
      */
     arcSweepAngle?: number;
 
-    /**
-     * Style of the entire progress container
-     *
-     * @type {ViewPropTypes.style}
-     */
-    style?: StyleProp<ViewStyle>;
+    // /**
+    //  * Style of the entire progress container
+    //  *
+    //  * @type {ViewPropTypes.style}
+    //  */
+    // style?: StyleProp<ViewStyle>;
 
     /**
      * Pass a function as a child. It receiveds the current fill-value as an argument
@@ -118,12 +118,12 @@ declare module 'react-native-circular-progress' {
      */
     children?: ((fill: number) => JSX.Element) | React.ReactChild;
 
-    /**
-     * Style of the children container
-     *
-     * @type {ViewPropTypes.style}
-     */
-    childrenContainerStyle?: StyleProp<ViewStyle>;
+    // /**
+    //  * Style of the children container
+    //  *
+    //  * @type {ViewPropTypes.style}
+    //  */
+    // childrenContainerStyle?: StyleProp<ViewStyle>;
 
     /**
      * Initial fill-value before animation starts
